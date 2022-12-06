@@ -1,0 +1,265 @@
+.main-div {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 20;
+    background-image: #fdebe0;
+    top:0;
+}
+
+
+.main {
+
+    width: 100%;
+    height: 60px;
+    position: relative;
+    box-shadow: 5px 0 10px #4f504d;
+    background-image:linear-gradient(90deg, #BD7CFE 0%, rgba(255, 77, 0, 0.4) 100%);
+
+}
+
+.hi {
+
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'poppins';
+    
+    margin:0;
+    font-family: 'poppins',sans-serif;
+    background: linear-gradient(90deg, #e4e4e4 0%, #ffffff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 28px;
+
+}
+
+.hi a{
+    background:linear-gradient(90deg, #feed7c 0%, rgba(255, 77, 0, 0.5) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.headerOption {
+    display: block;
+    width: auto;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    z-index: 20;
+    gap:5px;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family:poppins;
+    background-color: #00000008;
+
+}
+
+.headerOption span {
+    width: 110px;
+    text-align: center;
+    transition: 0.2s;
+    border-radius:5px;
+
+
+}
+
+.headerOption span:hover {
+
+    background-color: rgba(38, 50, 56, 0.137);
+
+
+}
+
+.headerOption button {
+    font-family: poppins;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+
+}
+#icon {
+
+    position: absolute;
+    width: 50px;
+    height: auto;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-18px);
+
+    display: block;
+
+
+}
+
+
+
+
+
+.iconimg {
+    display: none;
+    position: absolute;
+    width: 40px;
+    height: 45px;
+    transition-duration: 0.3s;
+
+
+}
+
+.iconimg:hover {
+
+    box-shadow: inset 2px 2px gray, inset -2px -2px rgb(175, 174, 174);
+
+
+}
+
+#menu {
+
+    position: absolute;
+    width: 100px;
+    height: auto;
+    background-color: rgba(45, 49, 3, 0.5);
+    display: none;
+    right: 15px;
+    top: 40px;
+    padding-left: 15px;
+    justify-content: center;
+    z-index: 2;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 7px;
+
+
+}
+
+
+
+#menu a {
+
+    padding: 10px 10px;
+    align-items: center;
+    display: flex;
+    transition-duration: 0.6s;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    color: white;
+    text-decoration: none;
+
+}
+
+#menu a:hover {
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+#icon:hover #menu {
+
+    display: block;
+
+}
+@media only screen and (max-width:1335px) {
+
+
+
+    .quotes2::before {
+
+        display: none;
+
+
+    }
+
+}
+
+@media only screen and (max-width:970px) {
+
+    .intro .svgimg1 {
+
+        left: -250px;
+        height: 100%;
+        display: none;
+
+    }
+
+    .intro .svgimg2 {
+
+        left: -350px;
+        display: none;
+
+    }
+
+    .quotes1 h2 {
+        font-size: 30px;
+        width: 350px;
+        font-family: 'Rubik', sans-serif;
+
+    }
+
+    .headerOption {
+
+        display: none;
+
+
+    }
+
+    .iconimg {
+
+        display: block;
+
+
+    }
+
+}
+
+.navcout{
+    color:#ffffff;
+    position: relative;
+}
+.navcout::after{
+    content: "";
+    background-color: #9b51d860;
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    
+}
+
+.Show{
+    display: block;
+}
+.Hide{
+    display: none;
+}
+
+#servicenav{
+    width: 100%;
+    height: 200px;
+    background-color: #BD7CFE98;
+    display: flex;
+    flex-direction: row;
+    gap:20vw;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+
+
+#servicenav a{
+ text-decoration:none;
+ font-size: 18px;
+ color:#4f504d;
+ font-weight: 700;
+}

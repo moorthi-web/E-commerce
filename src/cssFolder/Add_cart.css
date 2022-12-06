@@ -1,0 +1,130 @@
+.cart-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px ,1fr));
+    width: 60vw;
+    margin: 0 10vw;
+    padding: 110px 0 20px 0;
+    gap: 50px;
+    min-height:calc(100vh - 580px) ;
+
+}
+
+
+.productlist{
+    width: 340px;
+    height: 480px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px #00000010;
+    position: relative;
+}
+
+.productlist a{
+  position: relative;
+  
+}
+
+.productlist h1{
+    margin: 0;
+}
+
+.productlist img{
+    position: relative;
+    left: 0;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    height: 100%;
+}
+
+.productlist span{
+    display: flex;
+    flex-direction: column;
+}
+
+.productlist span a{
+display: block;
+}
+
+.productImgdiv{
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 10px #00000010; */
+    top:50px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.firstSpanprod{
+    flex-direction: row !important;
+    gap:10px !important;
+    justify-content: space-between !important;
+    width: 86% ;
+    left: 7%;
+    position: relative;
+    top: 10px;
+}
+
+.firstSpanprod h1{
+    font-size: 16px;
+    
+}
+
+.firstSpanprod a::after{
+    content: "";
+    background-color: #9fbe2f;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.firstSpanprod a{
+    position: relative;
+    color:#ffffff;
+    font-size: 17px;
+}
+
+
+.productlist button{
+    width: 40px;
+    height: 30px;
+    background-color: #9fbe2f;   
+    border: none;
+    font-size: 20px;
+    color:#ffffff;   
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.buttonspan{
+    flex-direction: row !important;
+    gap:30px;
+   
+}
+
+.bellow_content{
+    bottom: 0;
+    position: absolute;
+    margin: 30px 30px;
+}
+.brandpricepara p{
+
+  font-size: 14px;
+  color:#00000080;
+  margin-bottom: 10px;
+  margin-top: 0;
+
+}

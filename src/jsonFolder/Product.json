@@ -1,0 +1,198 @@
+
+[
+    {
+        "name": "shoe",
+        "brand": " Bata",
+        "Type": "Canvas Shoes For Men",
+        "img": "./Assert/shoe1.png",
+        "price": 800,
+        "dis":16
+    },
+    
+    {
+        "name": "headset",
+        "brand": "Sony",
+        "Type": "ZX110A Wired without Mic Headset ",
+        "img": "./Assert/headset1.png",
+        "price": 1500,
+        "dis":20
+    },
+   
+    {
+        "name": "jacket",
+        "brand": "Puma",
+        "Type": "Full Sleeve Solid Men Quilted Jacket",
+        "img": "./Assert/jacket1.png",
+        "price": 4500,
+        "dis":25
+    },
+    {
+        "name": "bottle",
+        "brand": "LARQ",
+        "Type": "Hydra Trek Black 700 ml Bottle",
+        "img": "./Assert/bottle1.png",
+        "price": 350,
+        "dis":15
+        
+    },
+    {
+        "name": "bottle",
+        "brand": "S'Well",
+        "Type": " Stainless Steel Bottles Chromo 1000 ML ",
+        "img": "./Assert/bottle2.png",
+        "price": 250,
+        "dis":10
+    }, {
+        "name": "laptop",
+        "brand": "Lenova",
+        "Type": " Ideapad Flex 5 Core i3 11th Gen",
+        "img": "./Assert/laptop1.png",
+        "price": 10000,
+        "dis":15
+    },
+    {
+        "name": "laptop",
+        "Type": "IdeaPad 3 Core i3 11th Gen",
+        "brand": "Lenova",
+        "img": "./Assert/laptop2.png",
+        "price": 8500,
+        "dis":18
+    },
+    {
+        "name": "jacket",
+        "brand": "Monte Carlo",
+        "Type": "Full Sleeve Solid Men Quilted Jacket",
+        "img": "./Assert/jacket2.png",
+        "price": 3500,
+        "dis":10
+    },
+    {
+        "name": "shoe",
+        "brand": "Peter England",
+        "Type": "Formal Shoes For Men",
+        "img": "./Assert/shoe2.png",
+        "price": 1500,
+        "dis":15
+    },
+    {
+        "name": "headset",
+        "brand": "JBL",
+        "Type": "JBL Tune 760NC ",
+        "img": "./Assert/headset2.png",
+        "price": 2500,
+        "dis":25
+    },
+    {
+        "name": "jacket",
+        "brand": "Levi's",
+        "Type": "Full Sleeve Solid Men Quilted Jacket",
+        "img": "./Assert/jacket3.png",
+        "price": 6000,
+        "dis":10
+    },
+    {
+        "name": "laptop",
+        "brand": "HP",
+        "Type": "Pavilion x360 Core i3 11th Gen",
+        "img": "./Assert/laptop3.png",
+        "price": 7000,
+        "dis":15
+    },
+    {
+        "name": "headset",
+        "brand": "Logitech ",
+        "Type": "G435 Bluetooth Gaming Headset",
+        "img": "./Assert/headset3.png",
+        "price": 800,
+        "dis":20
+    },
+    {
+        "name": "bottle",
+        "brand": "Thermos",
+        "Type": "Thermos Steel Push Button Lid Flask",
+        "img": "./Assert/bottle3.png",
+        "price": 600,
+        "dis":25
+    },
+    {
+        "name": "shoe",
+        "brand": "Van Heusen",
+        "Type": "Canvas Shoes For Men",
+        "img": "./Assert/shoe3.png",
+        "price": 750,
+        "dis":25
+    },
+    {
+        "name": "jacket",
+        "brand": "Calvin Klein",
+        "Type": "Full Sleeve Solid Men Quilted Jacket",
+        "img": "./Assert/jacket4.png",
+        "price": 1500,
+        "dis":30
+    },
+    {
+        "name": "bottle",
+        "brand": "Nalgene",
+        "Type": "Stainless Steel Fridge Water Bottle",
+        "img": "./Assert/bottle4.png",
+        "price": 150,
+        "dis":20
+    },
+    {
+        "name": "headset",
+        "brand": "CosmicByte",
+        "Type": "Cosmic Byte GS410 Wired Gaming Headset",
+        "img": "./Assert/headset4.png",
+        "price": 4850,
+        "dis":7
+    },
+    {
+        "name": "laptop",
+        "brand": "Dell",
+        "Type": " Inspiron Core i5 11th Gen",
+        "img": "./Assert/laptop4.png",
+        "price": 9500,
+        "dis":15
+    },
+    {
+        "name": "jacket",
+        "brand": "Woodland",
+        "Type": "Full Sleeve Solid Men Quilted Jacket",
+        "img": "./Assert/jacket5.png",
+        "price": 1500,
+        "dis":10
+    },
+    {
+        "name": "headset",
+        "brand": "Boat",
+        "Type": "Rockerz 450 with Upto 15 Hours Playback Bluetooth Headset",
+        "img": "./Assert/headset5.png",
+        "price": 750,
+        "dis":15
+    },
+    {
+        "name": "watch",
+        "brand": "Boat",
+        "Type": "Rockerz 450 with Upto 15 Hours Playback Bluetooth Headset",
+        "img": "./Assert/watch.png",
+        "price": 750,
+        "dis":18
+    },  {
+        "name": "watch",
+        "brand": "Boat",
+        "Type": "Rockerz 450 with Upto 15 Hours Playback Bluetooth Headset",
+        "img": "./Assert/watch.png",
+        "price": 750,
+        "dis":18
+    },{
+        "name": "Rolex",
+        "brand": "Boat",
+        "Type": "Rockerz 450 with Upto 15 Hours Playback Bluetooth Headset",
+        "img": "./Assert/watch.png",
+        "price": 750,
+        "dis":18
+    }
+    
+]
+
+

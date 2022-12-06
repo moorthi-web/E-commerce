@@ -1,0 +1,100 @@
+.Welcomecard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    top: 650px;
+}
+
+.Welcomecard .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 348px;
+    text-align: center;
+    position: relative;
+    height: 230px;
+    background-color: #ffffff60;
+    backdrop-filter:blur(1px);
+    box-shadow:2px 2px 10px #00000010;
+    border-radius: 10px;
+
+}
+.Welcomecard .cards div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 348px;
+    text-align: center;
+   
+    height: 308px;
+    background-color: #ffffff;
+    backdrop-filter:blur(1px);
+    box-shadow:2px 2px 10px #00000010;
+   transition: 0.5s;
+
+}
+
+.Welcomecard .cards div img{
+    height: 90px;
+}
+
+
+.Welcomecard .cards::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+  
+    background: linear-gradient(45deg, #ad79e1 0%,#ffddcf 70%, #fbb495 100%);
+    z-index: -2;
+   
+    padding: -1px;
+    top: -2px;
+    left: -2px;
+    transition: 1s;
+}
+.Welcomecard .cards::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    transform: rotate(180deg);
+    background: linear-gradient(45deg, #ad79e1 0%,#ffddcf 70%, #fbb495 100%);
+    z-index: -1;
+    opacity: 1;
+    padding: -1px;
+    right: -2px;
+    bottom: -2px;
+    transition: 1s;
+}
+
+.Welcomecard .cards div p{
+    width: 80%;
+    margin-top: 0;
+    color:#263238;
+}
+.Welcomecard .cards div h2{
+    margin: 0;
+}
+
+
+ .cards:hover:before{
+    width: 352px;
+    height: 232px;
+    
+    
+} 
+.cards:hover:after{
+   z-index: -2;
+  
+   width: 352px;
+   height: 232px;
+}
+
+/* .cards:hover div{
+   
+} */

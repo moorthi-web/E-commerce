@@ -1,0 +1,88 @@
+[
+    {   
+        "id": 1001,
+        "name":"Headset",
+        "price":1500,
+        "brand":"Sony",
+        "img":"./imgfolder/product1.jpg"
+    },{
+        "id": 1002,
+        "name":"watch",
+        "price":3500,
+        "brand":"Apple",
+        "img":"./imgfolder/product2.jpg"
+    },{
+        "id": 1003,
+        "name":"watch",
+        "price":2500,
+        "brand":"samsung",
+        "img":"./imgfolder/product3.jpg"
+    },{
+        "id": 1004,
+        "name":"watch",
+        "price":800,
+        "brand":"Titan",
+        "img":"./imgfolder/product4.jpg"
+    },{
+        "id": 1005,
+        "name":"watch",
+        "price":700,
+        "brand":"g-shock",
+        "img":"./imgfolder/product5.jpg"
+    },{
+        "id": 1006,
+        "name":"watch",
+        "price":1200,
+        "brand":"BMC",
+        "img":"./imgfolder/product6.jpg"
+    },{
+        "id": 1007,
+        "name":"watch",
+        "price":800,
+        "brand":"sonata",
+        "img":"./imgfolder/product7.jpg"
+    },{
+        "id": 1008,
+        "name":"Headset",
+        "price":1500,
+        "brand":"Boat",
+        "img":"./imgfolder/product8.jpg"
+    },{
+        "id": 1009,
+        "name":"shoe",
+        "price":1200,
+        "brand":"Bata",
+        "img":"./imgfolder/product9.jpg"
+    },{
+        "id": 1010,
+        "name":"shoe",
+        "price":2500,
+        "brand":"nike",
+        "img":"./imgfolder/product10.jpg"
+    },{
+        "id": 1011,
+        "name":"shoe",
+        "price":1200,
+        "brand":"lofus",
+        "img":"./imgfolder/product11.jpg"
+    },{
+        "id": 1012,
+        "name":"shoe",
+        "price":1100,
+        "brand":"lofus",
+        "img":"./imgfolder/product12.jpg"
+    },{
+        "id": 1013,
+        "name":"shoe",
+        "price":2100,
+        "brand":"reebok",
+        "img":"./imgfolder/product13.jpg"
+    },{
+        "id": 1014,
+        "name":"back-pack",
+        "price":1500,
+        "brand":"wildcraft",
+        "img":"./imgfolder/product14.jpg"
+    }
+]
+

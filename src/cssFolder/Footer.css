@@ -1,0 +1,37 @@
+footer{
+    width: 100%;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    background:linear-gradient(45deg, #263238 0%,#263238 100%);
+    color:#ffffff;
+    align-items: center;
+    height: 400px;
+    margin-top: 50px;
+}
+
+footer div{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    width: 300px;
+    top:50%;
+}
+
+footer div label{
+    font-size: 14px;
+    color:#bcbcbc;
+
+}
+footer div ul{
+    padding-left: 0;
+    font-size: 13px;
+}
+footer div ul li{
+    list-style-type: none;
+    left: 0;
+}
+footer div p{
+    font-size: 13px;
+}

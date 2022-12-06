@@ -1,0 +1,14 @@
+.audio_content{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    .controldiv{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    position:sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 20px;
+    right: 0;
+    }
+}
